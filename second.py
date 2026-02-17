@@ -10,13 +10,7 @@ def home():
 def about():
     return render_template("about.html")
 
-@app.route('/contacts')
-def contacts():
-    return render_template("contacts.html")
 
-@app.route('/sss')
-def contacts():
-    return render_template("sss.html")
 
 
 if __name__ == '__main__':
